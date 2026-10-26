@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- 1. CAMBIA el título de la pestaña -->
+  <title>Page title - Court of Fontaine</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="main.css">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- Esta línea inserta la barra lateral, el menú y el pie en la página -->
+  <script src="site.js" defer></script>
+</head>
+<body>
+
+  <!-- 2. PORTADA de la página. CAMBIA el título, el subtítulo y la imagen de fondo.
+          Para otra imagen cambia la ruta en --hero-img. -->
+  <main class="hero hero--small" style="--hero-img: url('assets/pic00.jpg')">
+    <h1 class="hero-title">Page Title Here</h1>
+    <p class="hero-sub">a short line about this page.</p>
+
+    <a href="#contenido" class="scroll-down" aria-label="Bajar">
+      <i class="fa fa-angle-double-down"></i>
+    </a>
+  </main>
+
+  <!-- 3. CONTENIDO. Copia, pega y cambia los bloques que necesites.
+          Los elementos con la clase "reveal" aparecen con animación al hacer scroll. -->
+  <section id="contenido" class="page-section">
+
+    <h2 class="page-title reveal"><u>section title</u></h2>
+
+    <p class="page-text reveal">
+      Write your text here. Keep this block for a short introduction and
+      use the blocks below for images, lists and more.
+    </p>
+
+    <!-- Galería de 3 imágenes -->
+    <div class="gallery gallery--wide">
+      <figure class="reveal"><img src="assets/pic01.jpg" alt="describe the image" loading="lazy"></figure>
+      <figure class="reveal"><img src="assets/pic02.jpg" alt="describe the image" loading="lazy"></figure>
+      <figure class="reveal"><img src="assets/pic03.jpg" alt="describe the image" loading="lazy"></figure>
+    </div>
+
+    <!-- Frase grande para cerrar, con una parte en negrita y subrayada -->
+    <p class="story-quote reveal">
+      a closing line with <strong><u>one key phrase</u></strong> highlighted.
+    </p>
+
+  </section>
+
+  <!-- No agregues barra lateral, menú ni pie, ya los inserta site.js -->
+</body>
+</html>

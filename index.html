@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cafe Sparrow</title>
+
+  <!-- Tipografía Lato (la del diseño) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Íconos (twitter y flechas dobles) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="main.css">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- Inserta barra lateral, menú y pie, y maneja menú y animaciones -->
+  <script src="site.js" defer></script>
+</head>
+<body>
+
+  <!-- HERO -->
+  <main class="hero">
+    <h1 class="hero-title">
+     Curtain Lights Applaud<br>
+     Truth Verdict<br>
+     Pardon Freedom
+    </h1>
+
+    <p class="hero-sub">welcome to the Court of Fontaine..</p>
+
+    <a href="#siguiente" class="scroll-down" aria-label="Bajar">
+      <i class="fa fa-angle-double-down"></i>
+    </a>
+  </main>
+
+  <!-- TEXTO + GALERÍA -->
+  <section id="siguiente" class="intro">
+    <p class="intro-text reveal">
+    pure elegance, <strong><u>flawless drama</u></strong> and divine music in a grand fashion.
+    we take pride in the stage we build for you, in the tea we brew and
+    in the way we welcome you and amaze you.
+    </p>
+
+    <div class="gallery">
+      <figure class="reveal"><img src="assets/pic01.jpg" alt="furina tomando juguito" loading="lazy"></figure>
+      <figure class="reveal"><img src="assets/pic02.jpg" alt="furina, su ojito" loading="lazy"></figure>
+      <figure class="reveal"><img src="assets/pic03.jpg" alt="furina con lentes" loading="lazy"></figure>
+      <figure class="reveal"><img src="assets/pic04.jpg" alt="furina pixeleada" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <!-- HISTORIA + 3 IMÁGENES + FRASE FINAL -->
+  <section class="story">
+    <p class="story-text reveal">
+      From velvet curtains and golden stage lights, to shimmering fountains and teacups
+      left half finished, the Court of Fontaine is filled with things that tell a grand story.
+      Furina spent five hundred years playing a role and learned that the brightest spotlight
+      is the one we share, so this is what we always want our stage to be, a place where we
+      bring out the star in each other.
+    </p>
+
+    <div class="gallery gallery--wide">
+      <figure class="reveal"><img src="assets/pic05.jpg" alt="furina" loading="lazy"></figure>
+      <figure class="reveal"><img src="assets/pic06.jpg" alt="furina" loading="lazy"></figure>
+      <figure class="reveal"><img src="assets/pic07.jpg" alt="furina" loading="lazy"></figure>
+    </div>
+
+    <p class="story-quote reveal">
+      our ever-evolving stage is a reflection of <strong><u>furina's drama</u></strong> -
+      redemption in every curtain call.
+    </p>
+  </section>
+
+  <!-- FURINA'S BUILD, foto fija a la izquierda + armas y artefactos -->
+  <section class="food" id="build">
+    <div class="food-photo">
+      <img src="assets/pic08.jpg" alt="furina" loading="lazy">
+    </div>
+
+    <div class="food-content">
+      <header class="food-head reveal">
+        <h2 class="food-title"><u>furina's build</u></h2>
+        <p class="food-desc">
+          We work with an array of different weapons and artifacts, ask the Traveler<br>
+          to find out what suits the Hydro Archon today. Items with
+          <i class="fa fa-star star" aria-label="star"></i> are best in slot.
+        </p>
+      </header>
+
+      <div class="food-cols">
+
+        <div class="food-col reveal">
+          <h3 class="food-tab">weapons</h3>
+          <ul class="food-list">
+            <li><strong><i class="fa fa-star star"></i> splendor of tranquil waters - 5-star</strong><span>her signature sword. the best weapon for any role.</span></li>
+            <li><strong>key of khaj-nisut - 5-star</strong><span>the second best choice, an hp based sword.</span></li>
+            <li><strong>festering desire - 4-star</strong><span>energy recharge plus skill damage and skill crit rate.</span></li>
+            <li><strong>fleuve cendre ferryman - 4-star</strong><span>the best free option.</span></li>
+            <li><strong>wolf-fang - 4-star</strong><span>the best 4-star option for damage.</span></li>
+            <li><strong>favonius sword - 4-star</strong><span>the best option when she needs more energy.</span></li>
+          </ul>
+        </div>
+
+        <div class="food-col reveal">
+          <h3 class="food-tab">artifacts</h3>
+          <ul class="food-list">
+            <li><strong><i class="fa fa-star star"></i> golden troupe (4pc) - best damage</strong><span>+25% skill damage, and +25% more while she is off-field.</span></li>
+            <li><strong>golden troupe (2pc) - 20%</strong><span>+20% elemental skill damage.</span></li>
+            <li><strong>tenacity of the millelith - support</strong><span>a strong support set for atk based teams.</span></li>
+            <li><strong>hp% - priority stat</strong><span>furina scales on max hp, so stack it first.</span></li>
+            <li><strong>energy recharge - priority stat</strong><span>keeps her burst ready, she needs a lot of it.</span></li>
+            <li><strong>max hp - 40,000</strong><span>a good target before building the rest.</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LIFE IS SHORT, texto + video horizontal -->
+  <section class="life" id="life">
+    <p class="life-text reveal">
+      life is<br>
+      short, steal<br>
+      the <strong><u>spotlight</u></strong> first!
+    </p>
+
+    <div class="life-video reveal">
+      <video src="assets/clip01.mp4" autoplay muted loop playsinline preload="metadata"></video>
+    </div>
+  </section>
+
+  <!-- TALENTS + TEAMMATES, foto fija a la izquierda -->
+  <section class="food food--second" id="team">
+    <div class="food-photo">
+      <img src="assets/pic09.jpg" alt="furina" loading="lazy">
+    </div>
+
+    <div class="food-content">
+      <div class="food-cols">
+
+        <div class="food-col reveal">
+          <h3 class="food-tab">talents</h3>
+          <ul class="food-list">
+            <li><strong>soloist's solicitation - normal attack</strong><span>her normal attack talent.</span></li>
+            <li><strong><i class="fa fa-star star"></i> salon solitaire - skill</strong><span>summons her guests, who deal hydro damage based on her max hp. the best talent to level.</span></li>
+            <li><strong>let the people rejoice - burst</strong><span>builds fanfare, boosting the team's damage and the healing they receive.</span></li>
+            <li><strong>ousia - alignment</strong><span>while aligned, her summons hit with hydro damage based on her max hp.</span></li>
+            <li><strong>walking on water - utility</strong><span>she can walk on water while her guests are on the field.</span></li>
+          </ul>
+        </div>
+
+        <div class="food-col reveal">
+          <h3 class="food-tab">teammates</h3>
+          <ul class="food-list">
+            <li><strong><i class="fa fa-star star"></i> neuvillette - main dps</strong><span>she is the best option for his personal damage.</span></li>
+            <li><strong>kazuha - support</strong><span>completes the ideal team with neuvillette and baizhu.</span></li>
+            <li><strong>baizhu - healer</strong><span>the healer of her ideal team.</span></li>
+            <li><strong>nahida - dendro</strong><span>bloom and hyperbloom teams with alhaitham and shinobu.</span></li>
+            <li><strong>wriothesley - main dps</strong><span>a strong team with shenhe and kazuha.</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CIERRE -->
+  <section class="closing">
+    <h2 class="closing-title reveal">the curtain never falls</h2>
+    <p class="closing-sub reveal">see you again at the Court of Fontaine.</p>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contact">
+    <h2 class="contact-title reveal"><u>this way to fontaine</u></h2>
+    <p class="contact-desc reveal">
+      If you want to give your event a touch of drama, send a message to the
+      Court of Fontaine today and let's co-create something unforgettable for you.
+    </p>
+
+    <div class="contact-grid">
+
+      <form class="contact-form reveal" id="contact-form" novalidate>
+        <label class="sr-only" for="c-name">Your name</label>
+        <input id="c-name" name="name" type="text" placeholder="Your Name" autocomplete="name" required>
+
+        <label class="sr-only" for="c-phone">Phone number</label>
+        <input id="c-phone" name="phone" type="tel" placeholder="Phone Number" autocomplete="tel">
+
+        <label class="sr-only" for="c-msg">Your message</label>
+        <textarea id="c-msg" name="message" rows="7" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn-send">send <i class="fa fa-paper-plane"></i></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="contact-side reveal">
+        <div class="map">
+          <iframe title="Mapa" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps?q=Op%C3%A9ra+Garnier+Paris&output=embed"></iframe>
+        </div>
+
+        <div class="contact-info">
+          <address>
+            <strong>Address:</strong> Place de l'Opéra - Paris, France<br>
+            <strong>E-mail:</strong> <a href="mailto:furina@courtoffontaine.com">furina@courtoffontaine.com</a><br>
+            <strong>Phone:</strong> <a href="tel:+33100000000">+33 1 00 00 00 00</a>
+          </address>
+
+          <div class="social">
+            <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  </body>
+</html>
